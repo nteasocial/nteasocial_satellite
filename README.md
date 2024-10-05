@@ -4,28 +4,22 @@ welcome. a small repository for anything i know about or suggest.
 
 ---
 
-## Table of Contents
-1. [Welcome](#welcome)
-2. [Maths & Physics Glossary](#glossary)
-3. [Browser & Frontend](#browser--frontend)
+# Table of Contents
+1. [Maths & Physics Glossary](#maths--physics-glossary)
+2. [Browser & Frontend](#browser--frontend)
     - [More than just frameworks or libs](#more-than-just-frameworks-or-libs)
     - [Rendering Methods Explained Simply (SSR, CSR, SSG, ISR)](#rendering-methods-explained-simply)
-4. [Softwares & System Design](#softwares--system-design)
+3. [Softwares & System Design](#softwares--system-design)
     - [The Trombone Effect](#the-trombone-effect)
-5. [Notes](#notes)
+4. [Notes](#notes)
 
 ---
 
-## Welcome
-This repository serves as a knowledge hub where I document various concepts and topics from physics, mathematics, frontend development, and system design. It's a continuous work in progress and will evolve over time.
+# Maths & Physics Glossary
 
----
+### 🔖 snippets from the physics & mathematics world
 
-## Glossary
-
-#### 🔖 snippets from the physics & mathematics world
-
-Physics Glossary
+#### Physics Glossary
 
 - **Quantum**:  
   The discrete, indivisible unit of a physical quantity.  
@@ -49,13 +43,13 @@ Physics Glossary
 
 - **Wave-Particle Duality**:  
   Quantum entities exhibit both particle-like and wave-like properties.  
-  **Formula**: λ=ph (de Broglie wavelength, where λ is the wavelength, h is Planck's constant, and p is momen
+  **Formula**: λ=ph (de Broglie wavelength, where λ is the wavelength, h is Planck's constant, and p is momentum).
 
 ---
 
-## Browser & Frontend
+# Browser & Frontend
 
-#### & more than just frameworks or libs
+### & more than just frameworks or libs
 
 A compilation of topics that can benefit any frontend developer with curiosity and a more in-depth understanding of *Browsers* and *JavaScript*.
 
@@ -85,34 +79,32 @@ A compilation of topics that can benefit any frontend developer with curiosity a
 24. Web Browser Security Models
 25. Browser Storage (Cookies, Local Storage, Session Storage)
 
-</details>
-
 ---
 
-### Rendering Methods Explained Simply
+# Rendering Methods Explained Simply
 
-#### 1. Server-Side Rendering (SSR)
+### 1. Server-Side Rendering (SSR)
 
 - **Definition**: The server generates the full HTML for a page on each request.
 - **How it works**: When a user requests a page, the server processes the request, fetches data, and sends back a fully rendered HTML page.
 - **Benefit**: Better for SEO and faster initial load times.
 - **Example**: Traditional websites where each page load involves a round-trip to the server.
 
-#### 2. Client-Side Rendering (CSR)
+### 2. Client-Side Rendering (CSR)
 
 - **Definition**: The browser renders the page using JavaScript.
 - **How it works**: The server sends a minimal HTML page with a JavaScript file. The browser executes the JavaScript, fetches data, and updates the UI.
 - **Benefit**: Smooth transitions between pages and dynamic content updates without reloading.
 - **Example**: Single Page Applications (SPAs) like those built with React.
 
-#### 3. Static Site Generation (SSG)
+### 3. Static Site Generation (SSG)
 
 - **Definition**: HTML pages are generated at build time and served as static files.
 - **How it works**: During the build process, the server generates all the HTML pages. These pages are then served directly to the user without additional server processing.
 - **Benefit**: Extremely fast page loads and great for SEO.
 - **Example**: Documentation sites, blogs, or marketing websites where content doesn't change frequently.
 
-#### 4. Incremental Static Regeneration (ISR)
+### 4. Incremental Static Regeneration (ISR)
 
 - **Definition**: Allows static pages to be updated incrementally after the site is built.
 - **How it works**: Similar to SSG, but with the ability to update or add static pages at runtime without rebuilding the entire site.
@@ -121,7 +113,7 @@ A compilation of topics that can benefit any frontend developer with curiosity a
 
 ---
 
-## Softwares & System Design
+# Softwares & System Design
 
 ### The Trombone Effect (Accordion or Telescope Effect)
 
@@ -133,18 +125,8 @@ A compilation of topics that can benefit any frontend developer with curiosity a
 - **Example 2**:  
   When making an international call, there's often a delay between speaking and when the person on the other end hears you. This delay occurs because the signal travels through various networks, experiencing processing delays or congestion. This also happens in online gaming, where latency affects the time it takes for actions to reach the game server and for the server’s response to return, impacting gameplay.
 
-
-
 ---
 
-Explore the architecture behind:
-- **System Architecture**: Patterns like microservices, monoliths, and serverless.
-- **Scalability and Reliability**: Techniques for building systems that handle millions of users.
-- **Database Design**: Concepts on designing scalable and efficient databases.
-- **Distributed Systems**: An introduction to fault tolerance, CAP theorem, and distributed databases.
-- **Cloud-Native Development**: Principles of building for AWS, GCP, and Azure.
+# Notes
 
----
-
-## Notes
 This page is continuously evolving as more knowledge is added. Bookmark this repository and return often for the latest updates in the encyclopedia!
