@@ -1,6 +1,6 @@
 # nteasocial_satellite
 
-welcome. a small repository for anything i know about or suggest.
+welcome. a small repository for anything i know about or suggest. [more about me](https://www.nteasocial.com)
 
 ---
 
